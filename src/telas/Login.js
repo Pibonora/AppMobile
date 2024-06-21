@@ -64,8 +64,8 @@ const Login = ({navigation}) => {
         secureTextEntry={true}
       />
       
-      <View sytle={styles.textocontainer}>
-          <Text>Não possui conta?
+      <View >
+          <Text style={styles.textocontainer}>Não possui conta?
              <Text style={styles.textoCadastro} onPress={onPressRegister}>   Faça o cadastro
              </Text>
           </Text> 

@@ -80,8 +80,8 @@ const Registrar = ({navigation}) => {
       />
 
       <View >
-          <Text sytle={styles.textoWhite}>Já possui conta?
-             <Text sytle={styles.textoAzul} onPress={onPressRegister}>   Faça o Login
+          <Text style={styles.textoWhite}>Já possui conta?
+             <Text style={styles.textoAzul} onPress={onPressRegister}>   Faça o Login
              </Text>
           </Text> 
       </View>
